@@ -5,10 +5,7 @@ import java.sql.*;
 public class Main {
     public static void main(String[] args)
     {
-	    String dbsUsed = "postgresql";
-	    String dbTarget = "yourdatabase.com/yourTable";
-
-        String connectionString = "jdbc:" + dbsUsed + "://" + dbTarget;
+        String connectionString = "jdbc:postgresql://yourdatabase.com/yourTable";
         String user = "yourUsername";
         String password = "yourPassword";
 
