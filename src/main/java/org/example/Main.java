@@ -53,11 +53,8 @@ public class Main {
                         {
                             Object value = rs.getObject(i + 1);
 
+                            // Gleichmäßige Anordnung aller Attribute mit gleichem Abstand zueinander.
                             System.out.printf("%20s", value.toString());
-
-                            // Etwas Abstand zwischen jeder Ausgabe eines Attributs.
-                            if(i < (results - 1))
-                                System.out.print("    ");
                         }
 
                         System.out.println();
