@@ -1,10 +1,10 @@
-# Database in Java with JDBC and Postgre
+# Datenbank-Anbindung in Java (JDBC) mit PostgreSQL
 
-Aus der Vorlesung EidOP
+Aus der Vorlesung EidOP (13.06.2023) mit ein paar Erweiterungen.
 
 # Was kann das Programm?
 
-Ihr könnt einfache SQL-Befehle direkt per Konsole ausführen.
+Ihr könnt SQL-Befehle direkt per Konsole nacheinander wie in einem Lauffeuer ausführen.
 
 Vorher müsst ihr noch einmal die Benutzerdaten wie Passwort
 eingeben,
