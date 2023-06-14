@@ -9,6 +9,7 @@ public class Main {
         String user = "yourUsername";
         String password = "yourPassword";
 
+
         try
         {
             Connection con = DriverManager.getConnection(connectionString, user, password);
@@ -17,7 +18,7 @@ public class Main {
 
             ResultSet rs = stmt.executeQuery("SELECT * FROM personen");
 
-            while (rs.next())
+            // while (rs.next())
             {
                 System.out.printf("%d %s %s (%s)%n",
                         rs.getInt(1),
