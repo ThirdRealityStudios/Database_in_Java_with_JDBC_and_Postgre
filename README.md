@@ -13,8 +13,12 @@ damit die Verbindung zur Datenbank klappt.
 
 # Wie den Treiber einbinden?
 
-Maven ist in IntelliJ irgendwie schon verbuggt genug.
+Maven ist bei mir in IntelliJ irgendwie ziemlich verbuggt.
+
 Daher ist es am besten,
-direkt die .jar einzubinden in den Projekteinstellungen -> Libraries -> Add jar
-oder so ähnlich.
-Die hier passende postgresql-42.6.0.jar befindet sich im Ordner lib neben src!
+
+dass ihr direkt die postgresql-42.6.0.jar direkt einbindet.
+
+Dies geschieht über die Projekteinstellungen -> Libraries -> Add jar.
+
+Die .jar-Datei befindet sich im /lib-Ordner.
