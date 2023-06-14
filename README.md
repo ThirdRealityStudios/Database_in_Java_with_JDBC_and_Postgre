@@ -2,6 +2,15 @@
 
 Aus der Vorlesung EidOP
 
+# Was kann das Programm?
+
+Ihr könnt einfache SQL-Befehle direkt per Konsole ausführen.
+
+Vorher müsst ihr noch einmal die Benutzerdaten wie Passwort
+eingeben,
+
+damit die Verbindung zur Datenbank klappt.
+
 # Wie den Treiber einbinden?
 
 Maven ist in IntelliJ irgendwie schon verbuggt genug.
